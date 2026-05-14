@@ -22,14 +22,23 @@
     <?php
 
 
+//String length print करा.
 
+$word = "Bikas";
+echo strlen($word)."<br>";
 
-//find length
-$word = "programming";
-print_r(strlen($word));
-echo strtoupper($word)."<br>";
-echo strtolower($word)."<br>";
-
+//User name 8 characters पेक्षा मोठा आहे का check करा.
+$user = "swapnilthakur";
+function checklength($user){
+    if(strlen($user) > 8){
+        echo "$user"." : ".strlen($user)."<br>";
+        return true;
+    }else{
+        echo strlen($user)."<br>";
+        return false;
+    }
+} 
+print_r(checklength($user))
 
 //Count vowels in string.
 
