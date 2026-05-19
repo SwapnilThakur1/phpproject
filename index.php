@@ -21,24 +21,42 @@
 
     <?php
 
+//String length print करा.
+
+ $word = "Swapnil";
+
+ echo(strlen($word));
 
 //String length print करा.
 
-$word = "Bikas";
-echo strlen($word)."<br>";
+// $word = "Bikas";
+// echo strlen($word)."<br>";
 
 //User name 8 characters पेक्षा मोठा आहे का check करा.
-$user = "swapnilthakur";
-function checklength($user){
-    if(strlen($user) > 8){
-        echo "$user"." : ".strlen($user)."<br>";
-        return true;
-    }else{
-        echo strlen($user)."<br>";
-        return false;
-    }
-} 
-print_r(checklength($user))
+// $user = "swapnilthakur";
+// function checklength($user){
+//     if(strlen($user) > 8){
+//         echo "$user"." : ".strlen($user)."<br>";
+//         return true;
+//     }else{
+//         echo strlen($user)."<br>";
+//         return false;
+//     }
+// } 
+// print_r(checklength($user));
+// echo "$user"."<br>";
+//Password length 6 पेक्षा कमी असेल तर:
+
+// function passvalidation($pass){
+
+// if(strlen($pass) < 6){
+//     echo strlen($pass)." : "."pass is weak..." ;
+// }else{
+//     echo strlen($pass)." : "."pass is strong..." ;
+// }
+
+// }
+// print_r(passvalidation("swnil"))
 
 //Count vowels in string.
 
